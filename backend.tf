@@ -1,6 +1,6 @@
 terraform { 
  backend "s3" {
-    bucket = "clc12-network-paulogodoy"
+    bucket = "clc12-network-paulogodoy2"
     key    = "network/terraform.tfstate"
     region = "us-east-1"
   }
